@@ -21,6 +21,9 @@ description: |
   - [MAX9890-TDFN-breakout](https://oshpark.com/shared_projects/vNmsYmTP)  
   - [MAX9892-uDFN-breakout](https://oshpark.com/shared_projects/2YVtVPVj)   
 
+
+  Gerber files are located in the [CAD](./CAD) directory so you can use whatever pcb service you want.
+
   ## Schematic
 
   Schematics are available in the [CAD](./CAD) directory
