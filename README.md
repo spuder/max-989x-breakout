@@ -8,8 +8,8 @@ These IC's eliminate pop and click noise when connecting headphone connectors
 
 ## Datasheets
 
-[MAX9090 Datasheet](https://www.mouser.com/datasheet/2/256/MAX9890-1514700.pdf)
-[MAX9892 Datasheet](https://www.mouser.com/datasheet/2/256/MAX9892-1516186.pdf)
+[MAX9090 Datasheet](https://www.mouser.com/datasheet/2/256/MAX9890-1514700.pdf)  
+[MAX9892 Datasheet](https://www.mouser.com/datasheet/2/256/MAX9892-1516186.pdf)  
 
 ## PCB
 
