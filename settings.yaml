@@ -1,26 +1,40 @@
 ---
-name: Changeme
+name: max-989x-breakout
 description: |
-  To change this file, modify settings.yaml and templates/README.md, then run 
-  ```
-  git submodule update -init
-  make all
-  ```
+  Breakout boards for the MAX989x series of audio amplifiers.
 
-  **Do not edit README.md directly as it will be overwritten..**
+  These IC's eliminate pop and click noise when connecting headphone connectors
+
+  [HOW TO PICK A CLICK-AND-POP SUPPRESSOR](https://www.maximintegrated.com/en/design/technical-documents/tutorials/4/4449.html)
+
+  ## Datasheets
+
+  [MAX9090 Datasheet](https://www.mouser.com/datasheet/2/256/MAX9890-1514700.pdf)
+  [MAX9892 Datasheet](https://www.mouser.com/datasheet/2/256/MAX9892-1516186.pdf)
+
+  ## PCB
+
+  Order PCBs on Oshpark
+
+  These PCB's are about $1 for 3 boards.
+
+  - [MAX9890-TDFN-breakout](https://oshpark.com/shared_projects/vNmsYmTP)  
+  - [MAX9892-uDFN-breakout](https://oshpark.com/shared_projects/2YVtVPVj)   
+
+  ## Schematic
+
+  Schematics are available in the [CAD](./CAD) directory
+
+  Used EASYEDA to generate the schematic. 
+
 license: 
-  type: undef # MIT, GPL, CC-Attribution, CC-Attribution-NoDerivs, CC-Attribution-ShareAlike, CC-Attribution-NonCommercial, CC-Attribution-NC-SA
+  type: CC-Attribution # MIT, GPL, CC-Attribution, CC-Attribution-NoDerivs, CC-Attribution-ShareAlike, CC-Attribution-NonCommercial, CC-Attribution-NC-SA
   owner: Spencer Owen
   year: 2022
 resources:
-  foo: https://example.com
-fusion_link: https://autodesk.example.com #comment out if no fusion link
+  9890Datasheet: https://www.mouser.com/datasheet/2/256/MAX9890-1514700.pdf
+  9892Datasheet: https://www.mouser.com/datasheet/2/256/MAX9892-1516186.pdf
+# fusion_link: https://autodesk.example.com #comment out if no fusion link
 links:
-  Thingiverse: https://www.thingiverse.com/thing:xxxx
-  Printables: https://foo.com
-  GrabCad: https://foo.com
-  Hackster.io: https://hackster.io/foo
-  Hackaday: https://hackaday.io/foo
-  Reddit: https://www.reddit.com/r/foo
-  Github: https://github.com/foo
-  Blog: https://foo.com
+  oshpark-max9890: https://oshpark.com/shared_projects/vNmsYmTP
+  oshpark-max9892: https://oshpark.com/shared_projects/2YVtVPVj
